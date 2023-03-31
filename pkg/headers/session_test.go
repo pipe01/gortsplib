@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/bluenviron/gortsplib/v3/pkg/base"
+	"github.com/pipe01/gortsplib/v3/pkg/base"
 )
 
 var casesSession = []struct {

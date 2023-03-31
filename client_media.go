@@ -7,8 +7,8 @@ import (
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"
 
-	"github.com/bluenviron/gortsplib/v3/pkg/base"
-	"github.com/bluenviron/gortsplib/v3/pkg/media"
+	"github.com/pipe01/gortsplib/v3/pkg/base"
+	"github.com/pipe01/gortsplib/v3/pkg/media"
 )
 
 type clientMedia struct {

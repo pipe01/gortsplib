@@ -2,7 +2,7 @@
 Package gortsplib is a RTSP 1.0 library for the Go programming language,
 written for rtsp-simple-server.
 
-Examples are available at https://github.com/bluenviron/gortsplib/tree/main/examples
+Examples are available at https://github.com/pipe01/gortsplib/tree/main/examples
 */
 package gortsplib
 
@@ -20,16 +20,16 @@ import (
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"
 
-	"github.com/bluenviron/gortsplib/v3/pkg/auth"
-	"github.com/bluenviron/gortsplib/v3/pkg/base"
-	"github.com/bluenviron/gortsplib/v3/pkg/bytecounter"
-	"github.com/bluenviron/gortsplib/v3/pkg/conn"
-	"github.com/bluenviron/gortsplib/v3/pkg/format"
-	"github.com/bluenviron/gortsplib/v3/pkg/headers"
-	"github.com/bluenviron/gortsplib/v3/pkg/liberrors"
-	"github.com/bluenviron/gortsplib/v3/pkg/media"
-	"github.com/bluenviron/gortsplib/v3/pkg/sdp"
-	"github.com/bluenviron/gortsplib/v3/pkg/url"
+	"github.com/pipe01/gortsplib/v3/pkg/auth"
+	"github.com/pipe01/gortsplib/v3/pkg/base"
+	"github.com/pipe01/gortsplib/v3/pkg/bytecounter"
+	"github.com/pipe01/gortsplib/v3/pkg/conn"
+	"github.com/pipe01/gortsplib/v3/pkg/format"
+	"github.com/pipe01/gortsplib/v3/pkg/headers"
+	"github.com/pipe01/gortsplib/v3/pkg/liberrors"
+	"github.com/pipe01/gortsplib/v3/pkg/media"
+	"github.com/pipe01/gortsplib/v3/pkg/sdp"
+	"github.com/pipe01/gortsplib/v3/pkg/url"
 )
 
 func isAnyPort(p int) bool {

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/bluenviron/gortsplib/v3/pkg/bits"
-	"github.com/bluenviron/gortsplib/v3/pkg/codecs/h264"
+	"github.com/pipe01/gortsplib/v3/pkg/bits"
+	"github.com/pipe01/gortsplib/v3/pkg/codecs/h264"
 )
 
 func getPictureOrderCount(buf []byte, sps *SPS, pps *PPS) (uint32, uint32, error) {

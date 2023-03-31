@@ -6,7 +6,7 @@ import (
 	"github.com/google/uuid"
 	psdp "github.com/pion/sdp/v3"
 
-	"github.com/bluenviron/gortsplib/v3/pkg/sdp"
+	"github.com/pipe01/gortsplib/v3/pkg/sdp"
 )
 
 // Medias is a list of media streams.

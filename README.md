@@ -1,10 +1,10 @@
 # gortsplib
 
-[![Test](https://github.com/bluenviron/gortsplib/workflows/test/badge.svg)](https://github.com/bluenviron/gortsplib/actions?query=workflow:test)
-[![Lint](https://github.com/bluenviron/gortsplib/workflows/lint/badge.svg)](https://github.com/bluenviron/gortsplib/actions?query=workflow:lint)
-[![Go Report Card](https://goreportcard.com/badge/github.com/bluenviron/gortsplib)](https://goreportcard.com/report/github.com/bluenviron/gortsplib)
+[![Test](https://github.com/pipe01/gortsplib/workflows/test/badge.svg)](https://github.com/pipe01/gortsplib/actions?query=workflow:test)
+[![Lint](https://github.com/pipe01/gortsplib/workflows/lint/badge.svg)](https://github.com/pipe01/gortsplib/actions?query=workflow:lint)
+[![Go Report Card](https://goreportcard.com/badge/github.com/pipe01/gortsplib)](https://goreportcard.com/report/github.com/pipe01/gortsplib)
 [![CodeCov](https://codecov.io/gh/bluenviron/gortsplib/branch/main/graph/badge.svg)](https://app.codecov.io/gh/bluenviron/gortsplib/branch/main)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/bluenviron/gortsplib/v3)](https://pkg.go.dev/github.com/bluenviron/gortsplib/v3#pkg-index)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/pipe01/gortsplib/v3)](https://pkg.go.dev/github.com/pipe01/gortsplib/v3#pkg-index)
 
 RTSP 1.0 client and server library for the Go programming language, written for [rtsp-simple-server](https://github.com/aler9/rtsp-simple-server).
 
@@ -95,7 +95,7 @@ Features:
 
 ## API Documentation
 
-https://pkg.go.dev/github.com/bluenviron/gortsplib/v3#pkg-index
+https://pkg.go.dev/github.com/pipe01/gortsplib/v3#pkg-index
 
 ## Standards
 

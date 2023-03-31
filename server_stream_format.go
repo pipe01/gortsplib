@@ -1,8 +1,8 @@
 package gortsplib
 
 import (
-	"github.com/bluenviron/gortsplib/v3/pkg/format"
-	"github.com/bluenviron/gortsplib/v3/pkg/rtcpsender"
+	"github.com/pipe01/gortsplib/v3/pkg/format"
+	"github.com/pipe01/gortsplib/v3/pkg/rtcpsender"
 )
 
 type serverStreamFormat struct {

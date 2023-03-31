@@ -8,9 +8,9 @@ import (
 
 	"github.com/pion/rtp"
 
-	"github.com/bluenviron/gortsplib/v3/pkg/codecs/jpeg"
-	"github.com/bluenviron/gortsplib/v3/pkg/formatdecenc/rtpmjpeg/headers"
-	"github.com/bluenviron/gortsplib/v3/pkg/rtptime"
+	"github.com/pipe01/gortsplib/v3/pkg/codecs/jpeg"
+	"github.com/pipe01/gortsplib/v3/pkg/formatdecenc/rtpmjpeg/headers"
+	"github.com/pipe01/gortsplib/v3/pkg/rtptime"
 )
 
 const (
