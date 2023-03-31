@@ -1,6 +1,7 @@
 package gortsplib
 
 import (
+	"strings"
 	"time"
 
 	"github.com/google/uuid"
@@ -20,8 +21,18 @@ type serverStreamMedia struct {
 
 func newServerStreamMedia(st *ServerStream, medi *media.Media) *serverStreamMedia {
 	sm := &serverStreamMedia{
-		uuid:  uuid.New(),
 		media: medi,
+	}
+
+	if strings.HasPrefix(medi.Control, "mediaUUID=") {
+		var err error
+
+		sm.uuid, err = uuid.Parse(strings.TrimPrefix(medi.Control, "mediaUUID="))
+		if err != nil {
+			sm.uuid = uuid.New()
+		}
+	} else {
+		sm.uuid = uuid.New()
 	}
 
 	sm.formats = make(map[uint8]*serverStreamFormat)
